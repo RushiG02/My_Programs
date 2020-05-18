@@ -40,7 +40,7 @@ def nxt():
 def prev():
     window.month-=1
     if window.month==0:
-        window.month=1
+        window.month=12
         window.year-=1
     text.configure(text=str((calendar.month(window.year,window.month))))
 
