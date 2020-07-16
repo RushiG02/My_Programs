@@ -23,3 +23,4 @@ def is_armstrong(n):
 a=[n for n in range(10000) if is_armstrong(n)=='True']
 
 print(a)
+input()
